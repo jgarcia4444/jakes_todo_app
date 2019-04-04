@@ -8,7 +8,7 @@
     </div>
     <div class="container mt-4 loginOrSignup">
       <div class="row">
-        <div class="col">
+        <div class="col-md-6">
           <div class="container text-center loginForm">
             <form action="">
               <h5 class="mt-4">Login</h5>
@@ -30,7 +30,7 @@
             </form>
           </div>
         </div>
-        <div class="col">
+        <div class="col-md-6">
           <div class="container text-center signupForm">
             <form action="">
               <h5 class="mt-4">Signup</h5>
@@ -82,6 +82,14 @@ export default {
 </script>
 
 <style scoped>
+  .home {
+    font-family: "Montserrat";
+  }
+
+  h1 {
+    font-weight: 900;
+  }
+
   .loginOrSignup {
     background-color: #07456f;
   }
