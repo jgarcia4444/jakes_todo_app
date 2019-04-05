@@ -1,7 +1,6 @@
 <template>
   <div id="app" class="container">
     <nav class="navbar navbar-expand-lg">
-      <!--make this into a button-->
       <router-link to="/">
         <a href="/" class="navbar-brand">Jake's ToDo App</a>
       </router-link>
@@ -48,5 +47,10 @@
   .nav-link {
     font-family: "Montserrat";
     font-weight: 100;
+    margin-left: 40px;
+  }
+
+  .navbar {
+    padding-top: 20px;
   }
 </style>

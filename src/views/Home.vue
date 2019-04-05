@@ -1,14 +1,19 @@
 <template>
   <div class="home container mt-4">
+    <!-- Welcome Message -->
     <div class="jumbotron text-center">
       <h1 class="display-4">Welcome Everyone!</h1>
       <p class="lead mt-4">We could all use a little more organization.</p>
       <hr class="my-4" />
       <p id="intro">This web app aims to help keep your daily agenda in order. More features to come</p>
     </div>
+    <!-- Add key features section -->
+
+    
+    <!-- Login and Signup Form -->
     <div class="container mt-4 loginOrSignup">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-lg-6">
           <div class="container text-center loginForm">
             <form action="">
               <h5 class="mt-4">Login</h5>
@@ -30,7 +35,7 @@
             </form>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-lg-6">
           <div class="container text-center signupForm">
             <form action="">
               <h5 class="mt-4">Signup</h5>
